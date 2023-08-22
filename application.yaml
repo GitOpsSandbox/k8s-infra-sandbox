@@ -11,7 +11,7 @@ spec:
     targetRevision: feature/argocd-local-test
     path: dev
   destination: 
-    server: docker-desktop
+    server: https://kubernetes.default.svc
     namespace: myapp
 
   syncPolicy:
