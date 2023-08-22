@@ -7,8 +7,8 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
-    targetRevision: HEAD
+    repoURL: https://github.com/lukaszjozwiak/k8s-infra-sandbox.git
+    targetRevision: feature/argocd-local-test
     path: dev
   destination: 
     server: docker-desktop
