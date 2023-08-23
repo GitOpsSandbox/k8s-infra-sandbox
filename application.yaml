@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/lukaszjozwiak/k8s-infra-sandbox.git
+    repoURL: https://github.com/GitOpsSandbox/k8s-infra-sandbox.git
     targetRevision: feature/argocd-local-test
     path: dev
   destination: 
